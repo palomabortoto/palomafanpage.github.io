@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/estilo.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+  </style>
+    <body background="images/fundo.jpg">
+</head>
+
+<body style="font-family:Comic Sans MS;color: #009900;">
+
+  <div style="background-color:#004d00;padding:15px;text-align:center;">
+    <h1> Sociedade Esportiva Palmeiras - SEP</h1>
+<img src="images/palmeiras" alt="Pineapple" style="width:100px;height:100px;margin-left:15px;">
+  </div>
+
+  <div style="overflow:auto">
+    <div class="menu">
+      <a href="http://palomabortoto.github.io">GitHub</a>
+      <a href="https://drive.google.com/drive/my-drive">Google Drive</a>
+      <a href="https://www.facebook.com/PalomaBortoto">Facebook</a>
+    </div>
+
+    <div class="main">
+      <p><img src="images/palmeiras" alt="Pineapple" style="width:100px;height:100px;margin-left:15px;">
+        Meu nome é Paloma Cristina da Cruz Bortoto, tenho 23 anos, atualmente trabalho na área de
+        Recursos Humanos da empresa Scopus Soluções em TI, do grupo Banco Bradesco, sou formada em
+        Gestão de Recursos Humanos, porém pretendo mudar para área de Desenvolvimento de Sistemas.
+        Devido a isso estou no primeiro semestre de Análise e Desenvolvimento de Sistemas, na Universidade
+        São Judas Tadeu, com previsão de término no primeiro semestre de 2021.
+    </div>
+
+    <div class="right">
+      <h2>Simbolos</h2>
+    	<link rel="stylesheet" href="css/estilo.css">
+	<table>
+		<tr>
+			<th>Pacote Office</th>
+			<th>Nivel Conhecimento</th>
+	</tr>
+	  <tr>
+	    <td>Excel</td>
+	    <td><font size="7"><a href="http://palomabortoto.github.io"></font></td>
+	  </tr>
+		<tr>
+	    <td>Power Point</td>
+	    <td><font size="7"></font></td>
+	  </tr>
+		<tr>
+	    <td>Word</td>
+	    <td><font size="7"></font></td>
+	  </tr>
+    </div>
+  </div>
+
+  <br>
+  <div class="gif">
+    <a target="_blank" href="images/love.gif">
+      <img src="images/love.gif" alt="Cinque Terre" width="900" height="600">
+    </a>
+    <div class="desc"><center><b>LOVE</b></center></div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div style="background-color:#b3d9ff;text-align:center;padding:10px;margin-top:7px;">© copyright</div>
+
+</body>
+
+</html>
+
