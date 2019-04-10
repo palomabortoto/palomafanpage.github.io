@@ -5,13 +5,27 @@
   <link rel="stylesheet" href="css/estilo.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p1").hide();
+  });
+  $("#show").click(function(){
+    $("p1").show();
+  });
+});
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p2").toggle();
+  });
+});
+</script>
     <body background="images/fundo.jpg">
   <style>
   </style>
 
   </head>
-
 
   <body style="font-family:Comic Sans MS;color: #009900;">
     <meta charset="utf-8">
@@ -37,7 +51,7 @@
           excluído durante a Segunda Guerra Mundial, por pressão do governo nacional, na mesma reunião que formalizou a mudança de nome de Palestra Itália para Palmeiras.
           </br>
           </br>
-          <p1 id=p1>
+         <p1>
             Seus títulos mais importantes conquistados no futebol são a Copa Libertadores da América de 1999 e a <b>Copa Rio de 1951, considerado na época como um Mundial de Clubes de futebol e reconhecido como tal pela FIFA</b>, por meio do
             presidente
             da entidade, Joseph Blatter, em agosto de 2014 e por meio de documento encaminhado ao Ministério do Esporte do Brasil em novembro do mesmo ano. A entidade, no entanto, não reconhece a competição como um torneio oficial FIFA e
@@ -60,10 +74,10 @@
             </br>
             </br>
             <i>Fonte: Wikipédia</i>
-          </p1>
+        </p1>
           </br>
-          <button id="bt1">Ocultar</button>
-          <button id="bt2">Reexibir</button>
+          <button id="hide">Ocultar</button>
+          <button id="show">Reexibir</button>
           </p>
       </div>
 
