@@ -1,1 +1,1 @@
-# palomafanpage.github.io
+# http://palomafanpage.github.io
